@@ -27,7 +27,7 @@ if uploaded_file is not None:
     text = extract_text_from_pdf(uploaded_file)
 
     # 2. Tokenisasi kalimat (untuk statistik)
-    sentences = sent_tokenize(text)
+    sentences = sent_tokenize(text, language='indonesian')
 
     # 3. Preprocessing kata
     words = preprocess_text(text)
