@@ -1,7 +1,8 @@
 streamlit
 pymupdf
 nltk
+numpy
+pandas
 networkx
 matplotlib
-pandas
-numpy
+scipy
