@@ -10,6 +10,7 @@ from nltk.corpus import stopwords
 from collections import defaultdict, Counter
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 def extract_text_from_pdf(pdf_file):
